@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fly {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    width: 900px;
+    text-align: center;
+    margin: 500px auto 0;
+    color: #ffffffc1;
+    font-size: 24px;
+}
+
+.page {
+    background: url(proj.img/273641-a-drone-flying-over-the-sea-capturing-a-cloudy-ora.jpg);
+    width: 1440px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sky {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0;
+}
+
+.sky img {
+    width: 120px;
+    height: 50px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.kontact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kontact img {
+    width: 20px;
+    height: 20px;
+}
+
+.kontact a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.kontact button {
+    height: 40px;
+    border-radius: 7px;
+    background: rgba(210, 105, 30, 0.018);
+    color: #ffffff;
+    font-size: 10px;
+    border: 2px solid rgb(47, 168, 255);
+    cursor: pointer;
+}
+
+.about-me {
+    display: flex;
+    gap: 60px;
+    margin: 70px 0 0 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+.span-menu {
+    width: max-content;
+}
+
+.span-menu p {
+    background: #ffffff;
+    display: flex;
+    width: 320px;
+    padding: 10px;
+    font-size: 25px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.span-menu p.span {
+    transform: rotate(90deg);
+}
+
+.ul {
+    position: absolute;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.7);
+    list-style-type: none;
+    text-align: left;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.section-one {
+    width: 100%;
+    height: 600px;
+
+}
+
+.ul li a {
+    display: flex;
+    color: black;
+    padding: 10px 0 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+.span-menu p:active~ul,
+ul:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.span-menu button {
+    width: 287px;
+    height: 48px;
+    color: #ffffff;
+    background: #685ED6;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.but{
+    margin: 0 0 0 15px;
+}
+.ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.555);
+    color: #ffffff;
+}
+
+.projec {
+    width: 350px;
+    height: 387px;
+    background: #FCFEFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.projec img {
+    width: 320px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.button {
+    margin: 30px 0 0 15px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about {
+    position: absolute;
+    position: relative;
+    top: -130px;
+    left: 70px;
+}
+
+.year {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.year h1 {
+    font-weight: 900;
+    font-size: 90px;
+    color: red;
+}
+
+.year h4 {
+    width: 60px;
+    font-size: 18px;
+}
+
+.about-me h1 {
+    font-weight: 900;
+    font-size: 90px;
+    color: red;
+}
+
+.about-me p {
+    width: 429px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #A9A9AA;
+}
+
+.infor {
+    margin: 140px 0 0 0;
+}
+
+.about-me img {
+    width: 230px;
+    height: 260px;
+}
+
+.section {
+    width: 100%;
+    height: 900px;
+    /* margin: 0 0 100px 0; */
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.uslugi img {
+    width: 434px;
+    height: 324px;
+}
+
+.uslugi h4 {
+    font-size: 24px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.uslugi p {
+    width: 434px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.us {
+    margin: 40px 0 0 0;
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    margin: 60px 0;
+}
+
+.footer {
+    width: 1440px;
+    height: 612px;
+    background: url(proj.img/4002e38060d34337f8c0a71f1f913a05.png);
+    margin-top: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 100px;
+}
+.forma-one {
+    display: flex;
+    gap: 20px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 60px;
+}
+
+.email button {
+    width: 148px;
+    height: 47px;
+    border: 2px solid transparent;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+
+.forma-one h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #333333;
+
+}
+
+.forma-one img {
+    background-color: #111214;
+    background: rgba(202, 205, 209, 0.1);
+}
+
+.block {
+    display: flex;
+    gap: 30px;
+}
+
+.adres {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.adres label {
+    width: 181px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.message label {
+    width: 181px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.adres input {
+    width: 312px;
+    height: 54px;
+    background: rgba(202, 205, 209, 0.1);
+    border-radius: 2px;
+}
+
+.message input {
+    width: 654px;
+    height: 124px;
+    background: rgba(202, 205, 209, 0.1);
+    border-radius: 2px;
+}
